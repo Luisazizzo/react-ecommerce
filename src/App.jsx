@@ -57,7 +57,6 @@ function App() {
       />
       <Footer />
       <TendinaCart cart={cart} setCart={setCart} tendinaCart={tendinaCart} />
-
       {cardDescription ? (
         <CardDescription
           cart={cart}
