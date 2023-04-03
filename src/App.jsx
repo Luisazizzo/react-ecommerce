@@ -1,7 +1,7 @@
 import Navbar from "./components/navBar/NavBar";
 import Hero from "./components/hero/Hero";
 import MiniCardList from "./components/miniCardList/MiniCardList";
-import CardList from "./components/cardList/cardList";
+import CardList from "./components/cardList";
 import TendinaCart from "./components/tendinaCart/TendinaCart";
 import CardDescription from "./components/cardDescription";
 import { useEffect, useState } from "react";
