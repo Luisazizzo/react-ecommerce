@@ -1,0 +1,15 @@
+.Footer {
+  text-align: center;
+  font-size: 14px;
+  color: #373434ac;
+}
+.Footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.Footer-div div p {
+  font-size: 15px;
+  color: #373434ac;
+}

@@ -1,0 +1,44 @@
+.Card {
+  border: 2px solid rgba(42, 34, 34, 0.421);
+  border-radius: 6px;
+  width: 300px;
+  height: 440px;
+  background-color: #53766e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Card__image {
+  max-width: 250px;
+  min-width: 250px;
+  min-height: 230px;
+  max-height: 230px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  object-fit: cover;
+}
+.Card__text {
+  padding: 20px;
+}
+.Card__text--title {
+  margin: 6px 0;
+}
+
+.Card__text--desc {
+  margin: 6px 0;
+}
+
+.Card__text--cat {
+  margin-top: 20px;
+  display: inline;
+  padding: 4px;
+  border: 2px solid rgb(37, 37, 37);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.Card__text--price {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+}

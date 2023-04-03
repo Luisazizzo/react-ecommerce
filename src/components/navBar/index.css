@@ -1,0 +1,50 @@
+.Navbar {
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #bce2da;
+}
+.Navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Navbar ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.NavBar__form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NavBar__form input {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fff;
+  border-radius: 6px;
+  outline: none;
+}
+.cart,
+.menu {
+  font-size: 20px;
+}
+.cart-qty-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qtyCart {
+  border: 2px solid #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}

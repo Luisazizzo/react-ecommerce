@@ -1,0 +1,14 @@
+.Hero {
+  margin-top: 140px;
+}
+.Hero__text {
+  position: absolute;
+  left: 195px;
+  top: 200px;
+  color: #fff;
+}
+.Hero img {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
