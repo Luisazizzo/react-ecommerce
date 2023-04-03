@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { GET } from "../../utils/http";
 import Card from "../card/Card";
-import Loading from "../Loading/Loading";
+import Loading from "./../loading";
 import "./index.css";
 
 const CardList = ({ title, endpoint, setCardDescription }) => {
