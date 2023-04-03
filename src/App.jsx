@@ -1,8 +1,8 @@
-import Navbar from "./components/navBar/NavBar";
-import Hero from "./components/hero/Hero";
-import MiniCardList from "./components/miniCardList/MiniCardList";
+import Navbar from "./components/navBar";
+import Hero from "./components/hero";
+import MiniCardList from "./components/miniCardList";
 import CardList from "./components/cardList";
-import TendinaCart from "./components/tendinaCart/TendinaCart";
+import TendinaCart from "./components/tendinaCart";
 import CardDescription from "./components/cardDescription";
 import { useEffect, useState } from "react";
 import { GET } from "./utils/http";
