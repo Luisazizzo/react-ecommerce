@@ -8,6 +8,9 @@
   align-items: center;
   justify-content: space-between;
 }
+p {
+  text-align: center;
+}
 
 .CartItem img {
   width: 50px;
